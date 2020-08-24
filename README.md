@@ -17,7 +17,7 @@ Command  | Definition  | values |Example
 `/creativemode`  | sets players mode to creative  |  |
 `/survivalmode`  | sets players mode to survival  |  |
 `/time set ${value}` | set the time of day  | afternoon, day, midnight, morning, night, noon, sunrise, sunset |   `/time set morning` |   
-`/heal ${optional player name}`  | heal yourself or a specific player  |  
+`/heal ${optional player name}`  | heal yourself or a specific player  | | `/heal` or `/heal JohnDoe` | 
 `/give ${playerName} ${item} ${amount}` | give player object and amount of object |visit - https://minecraft-ids.grahamedgecombe.com/ for item names | `/give JohnDoe diamond_axe 1`|
 `/summon ${creature}` | summon an animal or creature to your location | visit https://www.digminecraft.com/lists/entity_list_pc.php for entity list | `/summon cat` |
 `/mw move ${playerName} ${world}` | move player to specific world | | `/mw move JohnDoe Mania`|
