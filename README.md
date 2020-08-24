@@ -43,9 +43,9 @@ Command  | Definition  | values |Example
 `/multiworld list` |  gives you a list from every loaded world and type |   |   |   |   |
 `/multiworld info` |  shows you the world name of your current world |   |   |   |   |
 `/multiworld reload` |  reloads the configs - only needed when creating, unloading, deleting, loading a world |   |   |   |   |
-`/multiworld tp ${world Name}` |  teleports you to the spawnpoint of a loaded world | instert world name for a value in `/multiworld list`  |   |   |   |
-`/multiworld create ${world Name} ${environment}` |  creates a custom world  |  normal, nether, end |   |   |   |
-`/multiworld delete ${world Name}` |  teleport to home location |   |   |   |   |
+`/multiworld tp ${world Name}` |  teleports you to the spawnpoint of a loaded world | instert world name for a value in `/multiworld list`  |   |   |  `/multiworld tp World` |
+`/multiworld create ${world Name} ${environment}` |  creates a custom world  |  normal, nether, end |   |   |  `/multiworld create New_World normal` |
+`/multiworld delete ${world Name}` |  teleport to home location |   |   |   |  `/multiworld delete New_World` |
 
 
 * Note - try not to use spaces but _ for world names
